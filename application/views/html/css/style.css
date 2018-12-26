@@ -65,17 +65,17 @@ h6,
 	line-height: 1.2;
 	color: #3bc8e7;
 }
-a {
+button {
 	color: #3bc8e7;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 }
-a:hover {
+button:hover {
 	text-decoration: none;
 }
-a:focus,
+button:focus,
 button:focus {
 	outline: none;
 }
@@ -3237,8 +3237,8 @@ i.fa_icon.form-envelope {
 i.fa_icon.form-lock {
 	background-position: -80px -40px;
 }
-.ms_register_form a.ms_btn,
-.ms_lang_btn a.ms_btn {
+.ms_register_form button.ms_btn,
+.ms_lang_btn button.ms_btn {
 	background-color: transparent;
 	height: 40px;
 	border: 1px solid #fff;
@@ -3248,8 +3248,8 @@ i.fa_icon.form-lock {
 	width: auto;
 	margin-top: 10px;
 }
-.ms_register_form a.ms_btn:hover,
-.ms_lang_popup .modal-content.add_lang .ms_lang_btn a.ms_btn:hover {
+.ms_register_form button.ms_btn:hover,
+.ms_lang_popup .modal-content.add_lang .ms_lang_btn button.ms_btn:hover {
 	background-color: #ffffff;
 	color: #22bed7;
 }
